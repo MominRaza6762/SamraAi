@@ -21,7 +21,7 @@ const allowedOrigins = [
   "http://localhost:5173", // local frontend (Vite)
   "http://localhost:3001", // another possible dev port
   "https://samraai.vercel.app", // example production domain
-  "https://yourfrontend.com" // replace with your actual domain
+  "https://samra-ai-mhne.vercel.app" // replace with your actual domain
 ];
 
 app.use(
@@ -64,3 +64,4 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`✅ SamraAI Backend running at http://localhost:${PORT}`);
 });
+
