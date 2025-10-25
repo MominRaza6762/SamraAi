@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://samra-ai-5dd9.vercel.app/api/';
+const API_BASE_URL = 'https://samra-ai.vercel.app/api/';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
@@ -65,3 +65,4 @@ export const getDashboardStats = async () => {
 
 
 export default api;
+
